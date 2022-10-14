@@ -1,0 +1,70 @@
+Rancang
+program untuk mengimplementasikan operasi operasi pada matriks yang ditunjukkan
+pada slide
+diatas scaleBy , transpose, add, subtract, multiply).
+Contoh
+tampilan menu operasi pada matriks
+Pilih
+Operasi Matriks
+-----------------------
+1.
+ScaleBy
+2. Transpose
+3. Add
+4. Subtract
+5. Multiply
+6. Exit
+-----------------------
+Masukkan
+Pilihan : <input>
+
+
+
+
+
+Operasi ScaleBy :
+Masukkan Jumlah Baris : <input>
+Masukkan Jumlah Kolom : <input>
+Masukkan Elemen Matriks :
+Elemen 1,1 : <input>
+…
+dst
+Masukkan Nilai Skalar : <input>
+Hasil :<outpu>
+
+
+
+
+
+Operasi Add :
+Masukkan Ordo dan Elemen matriks A :
+Masukkan Jumlah Baris : <input>
+Masukkan Jumlah Kolom : <input>
+Masukkan Elemen Matriks :
+Elemen 1,1 : <input>
+…
+dst
+Masukkan Ordo dan Elemen matriks B :
+Masukkan Jumlah Baris : <input>
+Masukkan Jumlah Kolom : <input>
+Masukkan Elemen Matriks :
+Elemen
+1,1 : <input>
+…
+dst
+Hasil : <output>
+
+
+
+
+
+
+1. Program akan terus berjalan hingga pilihan 6 dimasukkan .
+2. Lakukan Validasi saat memasukkan ordo matriks pada operasi berikut ini:
+	a. Operasi Add dan Subtract , jumlah baris harus sama antara matriks A dan matriks B, begitu juga pada jumlah kolom matriks A dan matriks B.
+	b. Operasi Multiply , jumlah kolom matriks A harus sama dengan jumlah baris matriks B, sehingga ∑ Am,k X Bk,n = Cm,n
+3. Untuk menyederhanakan listing yang tercipta , buat fungsi untuk proses berikut ini:
+	a. Fungsi penginputan ordo matriks
+	b. Fungsi penginputan elemen matriks
+	c. Fungsi pencetakan hasil operasi matriks
+4. Untuk format pengerjaan tugas 2 ini, ditulis tangan dan di capture dengan kamera hp/scan tanpa filter (format foto standar
